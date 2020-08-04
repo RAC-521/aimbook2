@@ -1,0 +1,27 @@
+.request{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+}
+.request img{
+    height: 200px;
+    width: 200px;
+}
+.request-image{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.request-details{
+    padding-bottom: 20px;
+}
+.acceptBtn{
+    background-color: rgb(121, 211, 124);
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

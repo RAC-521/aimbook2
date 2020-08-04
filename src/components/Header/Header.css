@@ -1,0 +1,24 @@
+.header{
+    text-align: center;
+    background-color: rgb(202, 245, 254);
+}
+.header nav{
+    background-color: rgba(89, 199, 74, 0.726);
+    line-height: 38px;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    top: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    padding: 5px;
+}
+nav a.active{
+    background-color: rgba(230, 103, 103, 0.945);
+}
+nav a:hover:not(.active) {
+    border-bottom: 2px solid rgba(230, 103, 103, 0.945);
+  }
